@@ -1,5 +1,5 @@
 apiVersion: networking.k8s.io/v1
-kind: Pod
+kind: Ingress
 metadata:
   name: test-ingress
   namespace: my-namespace
