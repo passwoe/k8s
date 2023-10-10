@@ -6,11 +6,11 @@ spec:
   rules:
   - host: foo.bar.com
     http:
-      paths:
+      paths:       
       - pathType: Prefix
-        path: /bar
+        path: /foo
         backend:
           service:
             name: hello-world-sample
             port:
-              number: 90
+              number: 4200
