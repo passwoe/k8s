@@ -16,4 +16,4 @@ spec:
           service:
             name: hello-world-sample
             port:
-              number: 4200
+              number: 9090
