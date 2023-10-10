@@ -11,6 +11,6 @@ spec:
         path: /bar
         backend:
           service:
-            name: hello-world
+            name: hello-world-sample
             port:
               number: 90
