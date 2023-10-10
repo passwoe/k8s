@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Pod
 metadata:
-  name: sample-ingress
+  name: test-ingress
   namespace: my-namespace
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
